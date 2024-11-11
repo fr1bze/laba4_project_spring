@@ -41,7 +41,7 @@ tasks.named('bootJar') {
 sonarqube {
 	properties {
 		property "sonar.projectKey", "key"
-		property "sonar.host.url", "http://sonarqube:9000"
+		property "sonar.host.url", "http://localhost:9000"
 		property "sonar.login", "sqa_6f0f6b3f95eee5fda318d4863ea86f9cc2c8401f"
 	}
 }
