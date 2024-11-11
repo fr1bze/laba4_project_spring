@@ -40,3 +40,6 @@ volumes:
   jenkins_home:
   sonarqube_data:
   sonarqube_extensions:
+
+networks:
+  ci_network:
